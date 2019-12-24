@@ -152,7 +152,9 @@ header{
     height: 200px;
     margin-bottom: 20px;
 }
-
+.projet-1{
+    background-image: url(img/img-paysag-01.jpg);   
+    background-size: cover;}
 
 .projet-2{
     background-image: url(img/img-paysag-02.jpg);   
