@@ -357,9 +357,7 @@ div a button{
 /*Media queries*/
 
 @media screen  and (max-width:1200px){
-    .services{
-         margin-bottom: 30px; 
-    }
+
     .font-size-h1{
         font-size: 1.5rem;
     }
@@ -410,10 +408,7 @@ header{
 .btn-green{
         padding: 5px 10px;
     }
-.services{
-        margin: 10px;
-        width: 182px;
-}
+
 
     .container-footer{
         max-width: 100%;
