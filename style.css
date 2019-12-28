@@ -94,8 +94,32 @@ header{
     .btn-grey-hover{
         font-size: 13px;
     }
+    #menuBurger nav{
+        width:300px;
+        height:100vh;
+        box-sizing: inherit;
+        right: 5rem;
+        top:0px;
+        z-index: 9;
+    }
+    #menuBurger nav li a {
+        border-radius: 10px;
 
-
+    }
+    #menuBurger nav li a:link,#menuBurger nav li a:visited{
+        color:var(--color-white);
+        background-color: var(--color-green);
+    }
+    #menuBurger nav li a:link:hover,#menuBurger nav li a:visited:hover{
+        color:black
+    }
+    nav li a {
+        margin: 0;
+        padding-right: 4rem;
+    }
+    ::after, ::before{
+        box-sizing: inherit;
+    }
 .padding-13-20{
     padding: 13px 20px;
 }
@@ -125,8 +149,7 @@ header{
 }
 .line{
     height: 3px;
-    width:80%;
-    max-width: 960px;
+
     background-color: var(--color-grey-6);
     z-index: 1;
     position: absolute;
@@ -313,23 +336,25 @@ div a button{
     .services{
          margin-bottom: 30px; 
     }
+    .font-size-h1{
+        font-size: 1.5rem;
+    }
+    .nav-top{
+        font-size: .8rem;
+    }
+    .font-size-13{
+        font-size: .8rem;
+    }
+    .padding-13-20{
+        padding: 11px 18px;
+    }
 }
 @media screen  and (max-width:991px){  
       
     .font-size-13{
         font-size: 9px;
     }
-    .padding-13-20{
-        padding: 9px;
-    }
-
-        .line{
-            height: 3px;
-            width: 80%;
-            max-width: 960px;
-            background-color: var(--color-grey-6);
-            z-index: 1;
-        }
+    
         .little-form, textarea{
             border-radius: 10px;
             background-color: var(--color-grey-4);
@@ -346,7 +371,6 @@ div a button{
     }   
 
 }
-
 
 @media screen  and (max-width:768px){
 header{
@@ -384,7 +408,9 @@ header{
     header{
         height: 600px;
     }
-
+    .font-size-h2{
+        font-size: .8rem;
+    }
  .copyright{
         color: var(--color-grey-1);
         font-size: 11px;
@@ -395,8 +421,5 @@ header{
         font-size: 13px;
     }
 
-    .line{
-        width: 94%;
-    }
 }
 

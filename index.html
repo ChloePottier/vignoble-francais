@@ -10,41 +10,67 @@
     <meta property="og:image" content="http://exemple.com/article_thumbnail.jpg" />
     <meta property="og:description" content="Cet article présente les vins français" />
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <link rel="stylesheet" href="owlcarousel/owl.carousel.min.css">
-    <link rel="stylesheet" href="owlcarousel/owl.theme.default.min.css">
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css">
-    <script src="owlcarousel/jquery.min.js"></script>
-    <script src="owlcarousel/owl.carousel.min.js"></script>
-    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" type="text/css" href="css/screen.min.css">
+    <link rel="stylesheet" type="text/css" href="style.css">
     <title>Les vins français</title>
 </head>
 
 <body class="text-white">
     <header class="container-fluid bg-color-bordeaux-dark">
-            <div class="container">
-                <div class="row d-flex mt-5">
-                    <div class="col-11 col-lg-3 ">
-                        <h1 class="font-size-h1">Les vins français</h1>
-                        <h2 class="font-size-h2 color-grey-1">Saveurs et gastronomie</h2>
-                        
-                    </div>
-                    <div class="col-1 col-lg-9">
-                        <!-- ul nav -->
-                        <!-- <ul class="text-uppercase list-unstyled" id="menu">
-                                    <li><a href="#" class="text-white">Home</a></li>
-                                    <li><a href="#" class="text-white">L'histoire du vin</a></li>
-                                    <li><a href="#" class="text-white">Fabrication</a></li>
-                                    <li><a href="#" class="text-white">Mise en bouteille</a></li>
-                                    <li><a href="#" class="text-white">Galerie</a></li>
-                                    <li><a href="#" class="text-white">Contact</a></li>
-                                </ul> -->
-                        
+        <div class="container">
+            <div class="row d-flex mt-5">
+                <div class="col-8 col-sm-11 col-lg-3 ">
+                    <h1 class="font-size-h1">Les vins français</h1>
+                    <h2 class="font-size-h2 color-grey-1">Saveurs et gastronomie</h2>
 
-                    </div>
-                    
                 </div>
-                <!--Slide Hemza-->
-                <!-- <div class="row owl-carousel owl-theme">
+                <div class="col-4 col-sm-1 col-lg-9">
+                    <!-- Menu horizontal -->
+                    <nav class="mt-3 mb-5 d-none d-lg-flex">
+                        <ul class="d-flex text-uppercase list-unstyled">
+                            <li class="mr-1 ">
+                                <a href="index.html"
+                                    class="nav-top text-white text-decoration-none btn-green font-size-13 padding-13-20 text-nowrap">HOME</a>
+                            </li>
+                            <li class="mr-1"><a href="#"
+                                    class="nav-top text-white text-decoration-none btn-hover-green font-size-13 padding-13-20 text-nowrap">Histoire
+                                    du vin</a></li>
+                            <li class="mr-1"><a href="#"
+                                    class="nav-top text-white color-white text-decoration-none btn-hover-green font-size-13 padding-13-20 text-nowrap">Fabrication</a>
+                            </li>
+                            <li class="mr-1"><a href="#"
+                                    class="nav-top text-white text-decoration-none btn-hover-green font-size-13 padding-13-20 text-nowrap">Mise
+                                    en bouteille</a>
+                            </li>
+                            <li class="mr-1"><a href="#"
+                                    class="nav-top text-white text-decoration-none btn-hover-green font-size-13 padding-13-20 text-nowrap">Galerie</a>
+                            </li>
+                            <li class="mr-1"><a href="#contact"
+                                    class="nav-top text-white text-decoration-none btn-hover-green font-size-13 padding-13-20 text-nowrap">Contact</a>
+                            </li>
+                        </ul>
+                    </nav>
+                    <!-- Menu Burger -->
+                    <div class="wrapper justify-content-end d-block d-lg-none" id="menuBurger">
+                        <label class="toggle text-white justify-content-end d-flex p-0" for="toggle">&#9776;</label>
+                        <input class="toggle" id="toggle" type="checkbox">
+                        <nav class="position-absolute bg-black-op text-right">
+                            <ul class="mt-5rem flex-column">
+                                <li class="current"><a href="index.html">Home</a></li>
+                                <li><a href="#">Histoire du vin</a></li>
+                                <li><a href="#">Fabrication</a></li>
+                                <li ><a href="#">Mise en bouteille</a></li>
+                                <li><a href="#">Galerie</a></li>
+                                <li><a href="#contact">Contact</a></li>
+                            </ul>
+                        </nav>
+                    </div>
+                </div>
+
+            </div>
+            <!--Slide Hemza-->
+            <!-- <div class="row owl-carousel owl-theme">
                     <div class="col-8 mx-auto d-flex slid">
                         <div class="">
                             <h3>Accueil et conseils</h3>
@@ -98,10 +124,10 @@
                 </div> -->
 
 
-            </div>
+        </div>
 
     </header>
-<!-- Services -->
+    <!-- Services -->
     <div class="container-fluid bg-color-bordeaux-light d-flex">
         <div class="container">
             <div class="row container-photo-service d-flex pt-5">
@@ -112,7 +138,7 @@
                         </div>
                         <div>
                             <h3 class="color-grey-6 font-size-h3 text-center">Vins et gastronomie</h3>
-                            <p class="px-4">Vin rouge : poissons, charcuterie et viande rouge. 
+                            <p class="px-4">Vin rouge : poissons, charcuterie et viande rouge.
                                 Vin blanc : fromages, fruits de mer et poissons.</p>
                         </div>
                     </div>
@@ -126,11 +152,11 @@
                             <h3 class="color-grey-6 font-size-h3 text-center">Fabrication du vin</h3>
 
                             <p class="px-4">1-Vendanger le raisin, 2-Extraire le jus de raisins
-                            3-Fermentation alcoolique du moût de raisins.</p>
-                        </div>                        
+                                3-Fermentation alcoolique du moût de raisins.</p>
+                        </div>
                     </div>
                 </div>
-                
+
                 <div class="col-3 projet-latest-work d-flex mt-3">
                     <div class="services d-flex flex-column">
                         <div class="mx-auto pt-5 pb-3">
@@ -140,7 +166,7 @@
                             <h3 class="color-grey-6 font-size-h3 text-center">Mise en bouteille</h3>
 
                             <p class="px-4">Généralement entre 6 et 30 mois après les vendanges sur des
-                            vins stabilisés et clarifiés après un repos prolongé en cuve.</p>
+                                vins stabilisés et clarifiés après un repos prolongé en cuve.</p>
                         </div>
                     </div>
                 </div>
@@ -155,7 +181,8 @@
                             <h3 class="color-grey-6 font-size-h3 text-center">Les vendanges</h3>
 
                             <p class="px-4">La récolte du raisin destiné à la production du vin. <br>
-                            En France, l'époque des vendanges se situe traditionnellement entre septembre et octobre.</p>
+                                En France, l'époque des vendanges se situe traditionnellement entre septembre et
+                                octobre.</p>
                         </div>
                     </div>
                 </div>
@@ -163,8 +190,10 @@
             <!-- titre galerie -->
             <div class="row d-flex py-5">
                 <div class="col-12 d-flex justify-content-center  align-items-center">
-                    <div class="line my-auto position-absolute d-flex"></div>
-                     <h2 class="title-lastest-work position-relative d-flex text-white bg-color-grey-6 w-auto text-uppercase rounded mx-auto text-center my-auto py-2 px-2">Galerie</h2>
+                    <div class="line my-auto position-absolute d-flex w-100"></div>
+                    <h2
+                        class="title-lastest-work position-relative d-flex text-white bg-color-grey-6 w-auto text-uppercase rounded mx-auto text-center my-auto py-2 px-2">
+                        Galerie</h2>
                 </div>
             </div>
             <!-- galerie last projects -->
@@ -172,12 +201,12 @@
                 <div class="col-4 projet-lorem projet-1 taille-image">
                     <h3 class="lorem-text text-white bg-color-black">LOREM IPSUM DOLOR</h3>
                 </div>
-                    <div class="col-4 projet-lorem projet-2 taille-image">
-                        <h3 class="lorem-text text-white bg-color-black">LOREM IPSUM DOLOR</h3>
-                    </div>
-                    <div class="col-4 projet-lorem projet-3 taille-image">
-                        <h3 class="lorem-text text-white bg-color-black">LOREM IPSUM DOLOR</h3>
-                    </div>
+                <div class="col-4 projet-lorem projet-2 taille-image">
+                    <h3 class="lorem-text text-white bg-color-black">LOREM IPSUM DOLOR</h3>
+                </div>
+                <div class="col-4 projet-lorem projet-3 taille-image">
+                    <h3 class="lorem-text text-white bg-color-black">LOREM IPSUM DOLOR</h3>
+                </div>
             </div>
             <div class="row d-flex">
                 <div class="col-4 projet-lorem projet-4 taille-image">
@@ -243,11 +272,13 @@
 
                     </div>
                     <!--Formulaire de contact-->
-                    <div class="col-3 contact">
+                    <div class="col-3 contact" id="contact">
                         <h3 class="h3-footer titre-4-footer">Contact Us</h3>
                         <form action="traitement.php" onsubmit="return valider()" method="post" name="formSaisie">
-                            <input class="little-form" type="text" name="name" id="name" required placeholder="Full name *">
-                            <input class="little-form" type="text" name="email" id="email" required pattern="[a-zA-Z0-9._%+-]+@[a-zA-Z0-9._-]+\.[a-zA-Z]{2,8}$"
+                            <input class="little-form" type="text" name="name" id="name" required
+                                placeholder="Full name *">
+                            <input class="little-form" type="text" name="email" id="email" required
+                                pattern="[a-zA-Z0-9._%+-]+@[a-zA-Z0-9._-]+\.[a-zA-Z]{2,8}$"
                                 placeholder="Email address *">
                             <input class="little-form" type="text" name="subject" id="subject" required
                                 placeholder="Subject *">
@@ -263,15 +294,16 @@
             </div>
         </div>
 
-        <!------------ PETIT-FOOTER ------------>
+        <!------------ copyright, infos ------------>
         <div class="container-fluid bg-footer-2">
             <div class="container ">
                 <div class="row d-flex justify-content-between color-grey-1 font-size-13 height-62">
-                    <div class="col-6 d-flex  align-items-center" >
-                        <p class="copyright py-auto my-0">Copyright &copy; 2019 ACS Lons groupe 3 - Tous droits réservés </p>
+                    <div class="col-6 d-flex  align-items-center">
+                        <p class="copyright py-auto my-0">Copyright &copy; 2019 ACS Lons groupe 3 - Tous droits réservés
+                        </p>
                     </div>
                     <div class="col-6 d-flex justify-content-end  align-items-center">
-                        <p class="copyright py-auto my-0">Template by OS Templates</p>
+                        <p class="copyright py-auto my-0">Integration template</p>
                     </div>
                 </div>
             </div>
@@ -314,16 +346,16 @@
 
         //]]>
     </script>
-      <!--Scripts bootstrap-->
-      <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js"
-      integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n"
-      crossorigin="anonymous"></script>
-  <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js"
-      integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo"
-      crossorigin="anonymous"></script>
-  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js"
-      integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6"
-      crossorigin="anonymous"></script>
+    <!--Scripts bootstrap-->
+    <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js"
+        integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n"
+        crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js"
+        integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo"
+        crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js"
+        integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6"
+        crossorigin="anonymous"></script>
 </body>
 
 </html>
