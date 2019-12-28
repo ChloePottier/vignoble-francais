@@ -40,16 +40,15 @@ body,p,h1,h2,h3,h4,h5,a{
     background-color: var(--color-black);
 }
     /* couleur de texte */
-.color-grey-6{
-    color: var(--color-grey-6);
+ .color-white{
+    color: var(--color-white);
 }
 .color-grey-1{
     color: var(--color-grey-1)
+ }
+.color-grey-6{
+    color: var(--color-grey-6);
 }
-.color-white{
-    color: var(--color-white);
-}
-
 
 /* partie HEADER */
 header{
@@ -59,15 +58,23 @@ header{
     width: 100%;
 }
 
-.font-size-h1{
+ .font-size-32{
     font-size: 2rem;
-    white-space: nowrap;
 }
-.font-size-h2{
-    font-size: 1rem;
+.font-size-h1, .font-size-29{
+    font-size: 1.8rem;
 }
-.font-size-h3{
-    font-size: 1.5rem;
+.font-size-13{
+    font-size: .8rem;
+}
+.font-size-12{
+    font-size: .75rem;
+}
+.font-size-h2, .font-size-11{
+    font-size: .65rem;
+}
+.font-size-46{
+    font-size: 2.9rem;
 }
 .btn-green {
     background-color: var(--color-green);
@@ -75,10 +82,8 @@ header{
     border-radius: 10px;
     padding: 11px 20px 9px 20px;
 }
-.font-size-13{
-    font-size: 13px;
-    font-weight:400;
-}
+
+
     /*Menu*/
     .btn-hover-green:hover{
         background-color: var(--color-green);
@@ -123,7 +128,20 @@ header{
 .padding-13-20{
     padding: 13px 20px;
 }
+/* CArousel */
+.carousel-item{
+    float: none; 
+}
+.carousel-inner{
+    height: 400px;
+}
 
+.img-slid{
+    border: solid 1rem grey;
+}
+.carousel-control-next, .carousel-control-prev{
+    top:50%;
+}
 /**** partie content ****/ 
 /* Partie1 */
 
