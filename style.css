@@ -42,6 +42,9 @@ body,p,h1,h2,h3,h4,h5,a{
 .bg-color-black{
     background-color: var(--color-black);
 }
+.bg-color-black-op60{
+    background-color: rgba(0, 0, 0, 0.6);
+}
     /* couleur de texte */
  .color-white{
     color: var(--color-white);
@@ -64,6 +67,9 @@ header{
 }
 .font-size-h1, .font-size-29{
     font-size: 1.8rem;
+}
+.font-size-14{
+    font-size: .9rem;
 }
 .font-size-13{
     font-size: .8rem;
@@ -173,7 +179,6 @@ header{
 }
 .line{
     height: 3px;
-
     background-color: var(--color-grey-6);
     z-index: 1;
     position: absolute;
@@ -188,17 +193,10 @@ header{
 }
 
 .lorem-text{
-    font-size: 14px;
-    font-weight: normal;
     height: 30px;
     margin-top: 160px;
 }
 
-.taille-image{
-    width: 300px;
-    height: 200px;
-    margin-bottom: 20px;
-}
 .projet-1{
     background-image: url(img/img-paysag-01.jpg);   
     background-size: cover;}
