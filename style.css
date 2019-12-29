@@ -206,18 +206,21 @@ header{
 }
 .projet-lorem{
     cursor: pointer;
-    border: #fff solid 5px; 
+    border: #fff solid 5px;
+    width: 300px;
+    height: 200px;
 }
-
 .projet-lorem:hover{
     border: #76c38f solid 5px;     
 }
-
+.projet-lorem:hover h3{
+    display: none;
+}
 .lorem-text{
+    font-weight: normal;
     height: 30px;
     margin-top: 160px;
 }
-
 .projet-1{
     background-image: url(img/img-paysag-01.jpg);   
     background-size: cover;}
@@ -259,10 +262,6 @@ textarea{
 }
 form .bg-color-green:hover {
     background-color: var(--color-grey-7);
-}
-form button{
-    height: 35px;
-    width: 75px;
 }
 footer .border-bottom{
     border-color: var(--color-black)!important;
