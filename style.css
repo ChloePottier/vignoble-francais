@@ -49,13 +49,18 @@ body,p,h1,h2,h3,h4,h5,a{
  .color-white{
     color: var(--color-white);
 }
+.color-green{
+    color: var(--color-green)
+ }
 .color-grey-1{
     color: var(--color-grey-1)
  }
 .color-grey-6{
     color: var(--color-grey-6);
 }
-
+.color-grey-7{
+    color: var(--color-grey-7);
+}
 /* partie HEADER */
 header{
     border-top:5px solid var(--color-green);
@@ -69,6 +74,9 @@ header{
 }
 .font-size-h1, .font-size-29{
     font-size: 1.8rem;
+}
+.font-size-16{
+    font-size: 1rem;
 }
 .font-size-14{
     font-size: .9rem;
@@ -91,21 +99,20 @@ header{
 }
 
 
-    /*Menu*/
-    .btn-hover-green:hover{
-        background-color: var(--color-green);
-        display: inline;
-        border-radius: 10px;    
-    }
+/*Menu*/
+.btn-hover-green:hover{
+    background-color: var(--color-green);
+    display: inline;
+    border-radius: 10px;    
+}
 
-    .btn-grey-hover:hover{
-     background-color: var(--color-grey-2);
-     color: var(--color-green);
-    }
+.btn-grey-hover:hover{
+    background-color: var(--color-grey-2);
+    color: var(--color-green);
+}
 
-    .btn-grey-hover{
-        font-size: 13px;
-    }
+.btn-grey-hover{font-size: 13px;
+ }
     #menuBurger nav{
         width:300px;
         height:100vh;
@@ -149,9 +156,11 @@ header{
 .carousel-control-next-icon, .carousel-control-prev-icon{
     background-image: none!important;
 }
+.carousel-indicators li{
+    background-color: var(--color-green);
+}
 /**** partie content ****/ 
 /* Partie1 */
-
 .projet-latest-work{
     cursor: pointer; 
 }
@@ -168,7 +177,7 @@ header{
     color: var(--color-white);
 
 }
-    /* partie-2*/
+ /* partie-2*/
 .title-lastest-work{    
     z-index: 10;
 }
@@ -216,70 +225,19 @@ header{
     background-image: url(img/img-paysag-06.jpg);   
     background-size: cover;}
 
-    /* partie footer */
+ /* partie footer */
 
-    .bg-footer-1{
-        background-color: #303030;
-        border-bottom: 1px solid black;
-        padding-bottom: 25px;
-    }
+ .bg-footer-1{
+    border-bottom: 1px solid black;
+}
+.nav-footer li .color-green:hover, .read-more .color-green:hover{
+    color: var(--color-grey-1);
+}
+.li-footer{
+     border-bottom: 1px solid var(--color-grey-8);
+ }
+    
 
-    /* titres*/
-    .h3-footer{
-        font-size: 16px;
-        margin-top: 40px;
-    }
-    
-    .titre-1-footer{
-        margin-bottom: 33px;
-    }
-    .titre-2-footer{
-        margin-bottom: 26px;
-    }
-    .titre-3-footer{
-        margin-bottom: 39px;
-    }
-    .titre-4-footer{
-        margin-bottom: 34px;
-    }
-    
-    .titre-post-title,  .li-footer, a{
-        color: var(--color-green);
-    }
-    
-    .nav-footer{
-        padding-left: 1px; 
-    }
-    
-    .li-footer{
-        border-bottom: 1px solid var(--color-grey-8);
-        padding-top: 13px;
-        padding-bottom: 7px;
-        width: 210px; 
-    }
-    
-    .p-col-1-footer, .p-col-2-footer{
-        font-size: 13px;
-        color: var(--color-grey-1);
-        font-weight: normal;
-        line-height: 20px;
-    }
-  
-    
-    .text-admin{
-        font-size: 10px;
-        color: var(--color-grey-7);
-        line-height: 20px;
-        font-weight: normal;
-        margin-top: 17px;
-    }
-    .admin, .namehere{
-        color: var(--color-green);
-    }
-    
-    .date{
-        color: var(--color-grey-1);
-    }
     
     .little-form, textarea{
         border-radius: 10px;
@@ -400,6 +358,9 @@ header{
 }
 .font-size-46{
     font-size: 1.3rem;
+}
+.font-size-12{
+    font-size: .9rem;
 }
 .carousel-inner{
     height: 270px;
