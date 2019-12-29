@@ -104,7 +104,7 @@ body, p, h1, h2, h3, h4, h5, a, button, span, div{
 /* partie HEADER */
 header{
     border-top:5px solid var(--color-green);
-    height: 600px;
+    height: auto;
 }
 .btn-green {
     background-color: var(--color-green);
@@ -285,9 +285,6 @@ footer .border-bottom{
     }
 }
 @media screen  and (max-width:991px){  
-    header{
-        height:400px;
-    }  
     .font-size-13{
         font-size: .8rem;
     }
@@ -302,9 +299,6 @@ footer .border-bottom{
     }
 }
 @media screen  and (max-width:767px){
-    header{
-            height:340px;
-    }
     .font-size-46{
         font-size: 1.3rem;
     }
@@ -337,9 +331,6 @@ footer .border-bottom{
 
 /*Media queries*/
 @media screen and (max-width : 575px){
-    header{
-        height: 600px;
-    }
     .font-size-h2{
         font-size: .8rem;
     }
