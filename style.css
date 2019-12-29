@@ -184,11 +184,15 @@ header{
     background-color: var(--color-white);
     color: var(--color-grey-1);
 }
-
 .services:hover{
     background-color: var(--color-green);
     color: var(--color-white);
-
+}
+.width-img-services{
+    width: auto;
+}
+.width-text-services{
+    width: auto;
 }
  /* partie-2*/
 .title-lastest-work{    
@@ -263,25 +267,10 @@ form button{
 footer .border-bottom{
     border-color: var(--color-black)!important;
 }
-    /*PETIT FOOTER*/
-
 .height-62{
     height: 62px;
-}
-
-.retour{
-        font-weight: 600;
-        font-size: 16px;
-    }
-div a button{
-            border-radius: 10px;
-            height: 45px;
-            letter-spacing: 2px;
-}
-
-    
+} 
 /*Media queries*/
-
 @media screen  and (max-width:1200px){
 
     .font-size-h1{
@@ -313,53 +302,39 @@ div a button{
     .carousel-control-next, .carousel-control-prev{
         top:30%;
     }
-
-        .little-form, textarea{
-            border-radius: 10px;
-            background-color: var(--color-grey-4);
-            margin-bottom: 10px;
-            padding-left: 10px;
-            width: 200px;
-            color: var(--color-grey-1);
-            font-family: Georgia, 'Times New Roman', Times, serif;
-            outline: none;
-            font-size: 13px;
- }
 }
-
 @media screen  and (max-width:767px){
-header{
-        height:340px;
-}
-.font-size-46{
-    font-size: 1.3rem;
-}
-.font-size-16{
-    font-size: 1.5rem;
-}
-.font-size-13{
-    font-size: 1rem;
-}
-.font-size-12{
-    font-size: .9rem;
-}
-.carousel-inner{
-    height: 270px;
-}
-.carousel-control-next, .carousel-control-prev{
-    top:30%;
-}
-.img-slid{
-    border: solid .5rem grey;
-}
-.btn-green{
-        padding: 5px 10px;
+    header{
+            height:340px;
     }
-.container-footer{
-     max-width: 100%;
-     margin-left: 117px;
-     width: 71%;
-}
+    .font-size-46{
+        font-size: 1.3rem;
+    }
+    .font-size-16{
+        font-size: 1.5rem;
+    }
+    .font-size-13{
+        font-size: 1rem;
+    }
+    .font-size-12{
+        font-size: .9rem;
+    }
+    .carousel-inner{
+        height: 270px;
+    }
+    .img-slid{
+        border: solid .5rem grey;
+    }
+    .btn-green{
+            padding: 5px 10px;
+    }
+    .width-img-services{
+        width: 30%;
+    }
+    .width-text-services{
+        width: 70%;
+    }
+
 }
 
 /*Media queries*/
@@ -370,16 +345,20 @@ header{
     .font-size-h2{
         font-size: .8rem;
     }
+    .font-size-29{
+        font-size: 1.5rem;
+    }
+    footer .font-size-13{
+        font-size: .6rem;
+        }
     .carousel-inner{
         height: 500px;
     }
-    .copyright{
-        color: var(--color-grey-1);
-        font-size: 11px;
+    .width-img-services img{
+        width: 100%;
+        height: auto;
     }
-    .btn-green{
-        padding: 5px 10px;
-    }
+
     form button{
         width: 100%;
     }
