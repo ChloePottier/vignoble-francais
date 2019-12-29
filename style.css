@@ -136,17 +136,10 @@ header{
     padding: 13px 20px;
 }
 /* CArousel */
-.carousel-item{
-    float: none; 
-}
+
 .carousel-inner{
     height: 400px;
 }
-.carousel-item.active {
-    display: block;
-  }
-  .carousel-item-next,
-  .carousel-item-prev{display: none;}
   
 .img-slid{
     border: solid 1rem grey;
