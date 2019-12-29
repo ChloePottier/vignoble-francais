@@ -18,7 +18,7 @@
 body{
     margin: 0;
 }
-body,p,h1,h2,h3,h4,h5,a{
+body, p, h1, h2, h3, h4, h5, a, button, span, div{
     font-family: Georgia, 'Times New Roman', Times, serif;
 }
 
@@ -268,13 +268,7 @@ footer .border-bottom{
 .height-62{
     height: 62px;
 }
-   
-  
-    .reception-message{
-        font-family: Georgia, 'Times New Roman', Times, serif;
-        margin-top: 50px;
-        font-size: 18px;
-    }
+
 .retour{
         font-weight: 600;
         font-size: 16px;
