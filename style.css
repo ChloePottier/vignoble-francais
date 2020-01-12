@@ -49,6 +49,7 @@ body, p, h1, h2, h3, h4, h5, a, button, span, div{
 }
 .bg-color-black-op60{
     background-color: rgba(0, 0, 0, 0.6);
+    padding: 20px;
 }
     /* couleur de texte */
 .color-white{
@@ -128,7 +129,6 @@ header{
  }
     #menuBurger nav{
         width:300px;
-        height:100vh;
         box-sizing: inherit;
         right: 5rem;
         top:0px;
@@ -352,6 +352,10 @@ footer .border-bottom{
     }
     form button{
         width: 100%;
+    }
+    #menuBurger nav{
+        right: 0;
+        top: 10vh;
     }
 }
 
