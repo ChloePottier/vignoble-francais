@@ -357,5 +357,13 @@ footer .border-bottom{
         right: 0;
         top: 10vh;
     }
+    .carousel-item .col-12,.carousel-item .col-10{
+        padding: 0!important;
+        margin: 0!important;
+    }
+    .w-75{
+        width: 90%!important;
+        max-width: 336px;
+    }
 }
 
