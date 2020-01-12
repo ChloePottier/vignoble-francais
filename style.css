@@ -52,9 +52,6 @@ body, p, h1, h2, h3, h4, h5, a, button, span, div{
     padding: 20px;
 }
     /* couleur de texte */
-.color-white{
-    color: var(--color-white);
-}
 .color-green{
     color: var(--color-green)
  }
@@ -172,6 +169,7 @@ header{
 .carousel-indicators li{
     background-color: var(--color-green);
 }
+
 /**** partie content ****/ 
 /* Partie1 */
 .projet-latest-work{
@@ -340,8 +338,11 @@ footer .border-bottom{
     footer .font-size-13{
         font-size: .6rem;
         }
+        .carousel{
+            height: 100vh;
+        }
     .carousel-inner{
-        height: 500px;
+            overflow: visible;
     }
     .width-img-services img{
         width: 100%;
